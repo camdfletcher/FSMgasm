@@ -8,6 +8,10 @@ open class StateSeries(states: List<State> = emptyList()) : StateHolder(states) 
 
     constructor(vararg states: State) : this(states.toList())
 
+    fun getCurrent(): State {
+        return states[current]
+    }
+
     fun addNext(state: State) {
         states.add(current + 1, state)
     }

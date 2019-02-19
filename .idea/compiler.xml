@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="fsmgasm_main" target="1.8" />
       <module name="fsmgasm_test" target="1.8" />
+      <module name="net.minikloon.fsmgasm.fsmgasm.main" target="1.8" />
+      <module name="net.minikloon.fsmgasm.fsmgasm.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
